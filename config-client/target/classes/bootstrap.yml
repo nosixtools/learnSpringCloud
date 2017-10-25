@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    config:
+     uri: http://localhost:8080
+     profile: test #对应业务名称的profile
+     label: master #当配置文件在git上时为分支名
+  application:
+    name: test  #对应文件的业务名称
